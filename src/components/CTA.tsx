@@ -16,7 +16,7 @@ const CTA = () => {
           {/* Main CTA Button */}
           <div className="mb-12">
             <a 
-              href="https://cal.com/hoshloop/strategy-call" 
+              href="https://cal.com/abhinawago" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 bg-white text-black px-10 py-5 rounded-full font-bold text-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl group"
