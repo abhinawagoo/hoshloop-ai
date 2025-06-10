@@ -17,7 +17,8 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a 
-              href="#book-call"
+              href="https://cal.com/abhinawago"
+              
               className="bg-white text-black px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors duration-200"
             >
               Book a Strategy Call
