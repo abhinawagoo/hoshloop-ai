@@ -19,7 +19,7 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a 
-                href="https://twitter.com/hoshloop" 
+                href="https://twitter.com/abhinawago" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-900 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"
@@ -35,7 +35,7 @@ const Footer = () => {
                 <Linkedin className="w-5 h-5 text-gray-400" />
               </a>
               <a 
-                href="mailto:hello@hoshloop.com"
+                href="mailto:hoshloopai@gmail.com"
                 className="w-10 h-10 bg-gray-900 hover:bg-gray-700 rounded-lg flex items-center justify-center transition-colors"
               >
                 <Mail className="w-5 h-5 text-gray-400" />
