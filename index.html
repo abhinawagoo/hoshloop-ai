@@ -5,18 +5,38 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HoshLoop AI Agency</title>
-     <!-- ElevenLabs Widget Script -->
-    <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
-    <style>
 
-</style>
+    <!-- ElevenLabs Widget Script -->
+    <script
+      src="https://elevenlabs.io/convai-widget/index.js"
+      async
+      type="text/javascript"
+    ></script>
+
+    <style>
+      /* Optional custom styling to fine-tune button placement */
+      elevenlabs-convai {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+      }
+    </style>
   </head>
+
   <body>
     <div id="root"></div>
-     <elevenlabs-convai
-  agent-id="agent_01jymbsez9e3z97bbt7ahqdr2m"
-  style="--convai-accent-color: #000; --convai-button-background: #1e293b; --convai-button-icon-color: white;"
-></elevenlabs-convai>
+
+    <!-- ElevenLabs Voice AI Agent -->
+    <elevenlabs-convai
+      agent-id="agent_01jymbsez9e3z97bbt7ahqdr2m"
+      style="
+        --convai-accent-color: #1e293b;
+        --convai-button-background: #1e293b;
+        --convai-button-icon-color: #ffffff;
+        --convai-font-family: 'Inter', sans-serif;
+      "
+    ></elevenlabs-convai>
 
     <script type="module" src="/src/main.tsx"></script>
   </body>
