@@ -14,7 +14,7 @@ const BookCall = () => {
           </p>
 
           <a 
-            href="https://cal.com/hoshloop/strategy-call" 
+            href="https://cal.com/abhinawago" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 bg-white text-black px-10 py-5 rounded-lg font-bold text-xl hover:bg-gray-100 transition-colors duration-200"
