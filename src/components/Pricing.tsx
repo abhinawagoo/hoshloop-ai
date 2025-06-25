@@ -29,10 +29,16 @@ const Pricing = () => {
               <li>Performance Analytics</li>
               <li>Feature Enhancements</li>
             </ul>
-
-            <button className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors" href="https://cal.com/abhinawago" >
+<a
+  href="https://cal.com/abhinawago"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full inline-block"
+>
+            <button className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors"  >
               Get Started
             </button>
+  </a>
           </div>
 
           {/* Pro Plan */}
@@ -48,10 +54,16 @@ const Pricing = () => {
               <li>Enterprise Security</li>
               <li>24/7 Dedicated Support</li>
             </ul>
-
+<a
+  href="https://cal.com/abhinawago"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full inline-block"
+>
             <button className="w-full border border-gray-600 text-white py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors" href="https://cal.com/abhinawago" >
               Contact Us
             </button>
+  </a>
           </div>
         </div>
       </div>
