@@ -10,7 +10,7 @@ const Header = () => {
     { name: 'Pricing', href: '#pricing' },
     { name: 'Testimonials', href: '#testimonials' },
     { name: "FAQ's", href: '#faq' },
-    { name: 'Book a Call', href: '#book-call' }
+    { name: 'Book a Call', href="https://cal.com/abhinawago"  }
   ];
 
   return (
