@@ -8,21 +8,16 @@
      <!-- ElevenLabs Widget Script -->
     <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
     <style>
-  elevenlabs-convai {
-    --convai-accent-color: #ff5733;
-    --convai-font-family: 'Inter', sans-serif;
-    --convai-bubble-color: white;
-    --convai-bubble-text-color: black;
-    --convai-button-background: #000;
-    --convai-button-icon-color: #fff;
-    bottom: 50px; /* reposition */
-    right: 30px;
-  }
+
 </style>
   </head>
   <body>
     <div id="root"></div>
-     <elevenlabs-convai agent-id="agent_01jycf2vayfwzahdca5n1y87kk"></elevenlabs-convai>
+     <elevenlabs-convai
+  agent-id="agent_01jycf2vayfwzahdca5n1y87kk"
+  style="--convai-accent-color: #000; --convai-button-background: #1e293b; --convai-button-icon-color: white;"
+></elevenlabs-convai>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
