@@ -30,7 +30,7 @@ const Pricing = () => {
               <li>Feature Enhancements</li>
             </ul>
 
-            <button className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors">
+            <button className="w-full bg-black text-white py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors" href="https://cal.com/abhinawago" >
               Get Started
             </button>
           </div>
@@ -49,7 +49,7 @@ const Pricing = () => {
               <li>24/7 Dedicated Support</li>
             </ul>
 
-            <button className="w-full border border-gray-600 text-white py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors">
+            <button className="w-full border border-gray-600 text-white py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors" href="https://cal.com/abhinawago" >
               Contact Us
             </button>
           </div>
